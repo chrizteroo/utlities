@@ -1,0 +1,51 @@
+{
+
+  "compilerOptions": {
+
+    "target": "ES2020",
+
+    "moduleResolution": "node",
+
+    "module": "es2020",
+
+    "baseUrl": ".",
+
+    "paths": {
+
+      "web3": ["./node_modules/web3"],
+
+      "dotenv": ["./node_modules/dotenv"]
+
+    },
+
+    "strict": true,
+
+    "esModuleInterop": true,
+
+    "skipLibCheck": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "./dist",
+
+    "typeRoots": ["./types", "./node_modules/@types"],
+
+    "types": ["node"]
+
+  },
+
+  "include": [
+
+    "/Users/christopheroladimeji/utility/compile-deploy-typescript/src/**/*"
+
+  ],
+
+  "exclude": [
+
+    "/Users/christopheroladimeji/utility/node_modules",
+
+    "**/*.spec.ts"
+
+  ]
+
+}
